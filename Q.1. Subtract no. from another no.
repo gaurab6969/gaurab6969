@@ -1,4 +1,4 @@
-;Assembly program to substract a number from another number.
+; Assembly program to subtract a number from another number.
 
 .MODEL SMALL
 .DATA
