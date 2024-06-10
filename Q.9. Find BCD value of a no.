@@ -1,0 +1,23 @@
+; ALP to find BCD value of a number
+
+.MODEL SMALL
+.DATA
+
+     N DB 7
+     M DB 5
+   BCD DB ?
+   
+.CODE
+START:
+
+     MOV AX, @DATA
+     MOV DS, AX
+     MOV AL, N
+     MOV BL, M
+     ADD AL, BL
+     DAA
+     MOV BCD, AL
+     MOV AX, 4C00H
+     INT 21H
+     
+END START     
