@@ -1,0 +1,27 @@
+; ALP to evaluate the expression A.(B/C)*(D+1)
+
+.MODEL SMALL
+.DATA
+
+     A DW ?
+     B DW 15
+     C DW 3
+     D DW 2
+     
+.CODE
+START:
+     
+     MOV AX, @DATA
+     MOV DS, AX
+     MOV AX, B
+     MOV AX, C
+     DIV BX
+     MOV DX, AX
+     MOV AX, D
+     INC AX
+     MUL DX
+     MOV A, AX
+     MOV AX, 4C00H
+     INT 21H
+     
+END START     
