@@ -1,0 +1,29 @@
+; ALP to find simply interest 
+
+.MODEL SMALL 
+.STACK 100H
+.DATA
+      
+      P DW 100
+      I DW ?
+      N DW 2
+      R DW 10
+      F DW 1000
+      
+.CODE
+START:
+     
+     MOV AX, @DATA
+     MOV DS, AX
+     MOV AX, P
+     MOV BX, R
+     MUL BX
+     MOV BX, N
+     MUL BX
+     MOV BX, F
+     DIV BX
+     MOV I, AX
+     MOV AX, 4C00H
+     INT 21H
+     
+END START      
