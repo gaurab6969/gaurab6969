@@ -10,7 +10,7 @@
                         ; Look-up table for squares of numbers from 0 to 15
 
 .code
-main proc
+start:
     ; Initialize the data segment
     mov ax, @data
     mov ds, ax
@@ -38,5 +38,4 @@ out_of_bounds:
     mov ax, 4C00h
     int 21h
 
-main endp
-end main
+end start
