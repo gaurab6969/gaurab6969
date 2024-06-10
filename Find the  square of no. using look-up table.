@@ -1,0 +1,42 @@
+;Write an ALP to Find the  square of a number using look-up table.
+
+.model small
+.stack 100h
+
+.data
+    number dw 7         ; Example number to find the square of (between 0 and 15)
+    square dw 0         ; Variable to store the result (square of the number)
+    squares db 0, 1, 4, 9, 16, 25, 36, 49, 64, 81, 100, 121, 144, 169, 196, 225
+                        ; Look-up table for squares of numbers from 0 to 15
+
+.code
+main proc
+    ; Initialize the data segment
+    mov ax, @data
+    mov ds, ax
+    
+    ; Load the number into BX
+    mov bx, number
+    
+    ; Ensure the number is within the bounds (0 to 15)
+    cmp bx, 15
+    ja  out_of_bounds
+    
+    ; Load the square from the look-up table into AL
+    mov al, [squares + bx]
+    
+    ; Store the result in the square variable
+    mov square, ax
+    
+    ; Exit program
+    mov ax, 4C00h
+    int 21h
+
+out_of_bounds:
+    ; Handle out-of-bounds case (optional)
+    ; For now, just exit
+    mov ax, 4C00h
+    int 21h
+
+main endp
+end main
