@@ -1,0 +1,22 @@
+;Assembly program to substract a number from another number.
+
+.MODEL SMALL
+.DATA
+
+    A DW 2
+    B DW 5
+    C DW ?
+    
+.CODE
+START:
+
+     MOV AX, @DATA
+     MOV DS, AX
+     MOV AX, A
+     MOV BX, B
+     SUB BX, AX
+
+     MOV AX, 4C00H
+     INT 21H
+     
+END START     
