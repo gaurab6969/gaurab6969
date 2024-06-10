@@ -1,0 +1,42 @@
+;ALP to evaluate expressions
+
+.model small
+.stack 100h
+
+.data
+    A dw 10       ; Example value for A
+    B dw 20       ; Example value for B
+    C dw 5        ; Example value for C
+    D dw 6        ; Example value for D
+    E dw 4        ; Example value for E
+    F dw 2        ; Example value for F
+    result1 dw 0  ; Variable to store the result of A + B - C
+    result2 dw 0  ; Variable to store the result of D * E / F
+
+.code
+start:
+
+    ; Initialize the data segment
+    mov ax, @data
+    mov ds, ax
+    
+    ; Evaluate A + B - C
+    mov ax, A
+    add ax, B
+    sub ax, C
+    mov result1, ax
+    
+    ; Evaluate D * E / F
+    mov ax, D
+    mov bx, E
+    mul bx         ; DX:AX = AX * BX (result in DX:AX)
+    mov bx, F
+    div bx         ; AX = DX:AX / BX (result in AX, remainder in DX)
+    mov result2, ax
+    
+    ; Exit program
+    mov ax, 4C00h
+    int 21h
+
+end start
+
