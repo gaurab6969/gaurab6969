@@ -1,0 +1,20 @@
+; ALP to find area of rectangle
+
+.MODEL SMALL
+.DATA
+
+     L DW 10
+     B DW 5 
+     
+.CODE
+START:
+
+    MOV AX, @DATA
+    MOV DS, AX
+    MOV AX, L
+    MOV BX, B
+    MUL BX
+    MOV AX, 4C00H
+    INT 21H
+    
+END START     
