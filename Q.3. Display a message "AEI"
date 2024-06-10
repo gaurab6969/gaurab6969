@@ -1,0 +1,20 @@
+; ALP to display a message "Assam Engineering Institute" on screen.
+
+.MODEL SMALL
+.STACK 100H
+.DATA 
+        
+      A DW "Assam Engineering Institute"
+      
+.CODE
+START:
+
+      MOV AX, @DATA
+      MOV DS, AX
+      MOV DX, OFFSET A
+      MOV AH, 09H
+      INT 21H
+      MOV AX, 4C00H
+      INT 21H
+      
+END START        
