@@ -1,0 +1,30 @@
+; ALP to add five numbers in consecutive memory location (Array).
+
+.MODEL SMALL
+.STACK 100
+.DATA
+
+     ARR DW 7,9,11,13,15
+     
+.CODE
+START:
+
+     MOV AX, @DATA
+     MOV DS, AX
+     MOV AX, 00
+     MOV BX, 00
+     MOV CX, 5
+     
+LOOP:
+
+     MOV DX, ARR[BX]
+     ADD AX, DX
+     INC BX
+     INC BX
+     DEC CX
+     CMP CX, 0
+     JNE LOOP
+     MOV AX, 4C00H
+     INT 21H
+     
+END START      
