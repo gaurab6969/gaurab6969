@@ -1,0 +1,50 @@
+; ALP to perform addition, subtraction, multiplication and division.
+
+.model small
+.stack 100h
+.data      
+
+    num1 dw 10       ; First number
+    num2 dw 5        ; Second number
+    sum_result dw 0  ; Variable to store the result of addition
+    sub_result dw 0  ; Variable to store the result of subtraction
+    mul_result dw 0  ; Variable to store the result of multiplication
+    div_result dw 0  ; Variable to store the result of division
+    rem_result dw 0  ; Variable to store the remainder of division
+
+.code
+start:
+
+    ; Initialize the data segment
+    mov ax, @data
+    mov ds, ax
+    
+    ; Addition
+    mov ax, num1
+    add ax, num2
+    mov sum_result, ax
+    
+    ; Subtraction
+    mov ax, num1
+    sub ax, num2
+    mov sub_result, ax
+    
+    ; Multiplication
+    mov ax, num1
+    mov bx, num2
+    mul bx         ; DX:AX = AX * BX
+    mov mul_result, ax
+    
+    ; Division
+    mov ax, num1
+    mov bx, num2
+    xor dx, dx     ; Clear DX before division
+    div bx         ; AX = AX / BX, DX = AX % BX
+    mov div_result, ax
+    mov rem_result, dx
+    
+    ; Exit program
+    mov ax, 4C00h
+    int 21h           
+    
+end start
