@@ -1,0 +1,20 @@
+; ALP to find the cube of a number which is stored in a variable.
+
+.MODEL SMALL
+.DATA
+
+     A DW 3
+     
+.CODE
+START:
+
+    MOV AX, @DATA
+    MOV DS, AX
+    MOV AX, A
+    MOV BX, A
+    MUL BX
+    MUL BX
+    MOV AX, 4C00H
+    INT 21H
+   
+END START      
