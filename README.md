@@ -4,11 +4,11 @@
 
 ## 🌐 Socials:
 <div align="left">
-  <img href="https://www.linkedin.com/in/gaurab-bhagawati-71a8ba32a/" src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  /><br>
-  <img href="https://x.com/GauravBhagwati" src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/twitter/default.svg" width="52" height="40" alt="twitter logo"  /><br>
-  <img href="https://www.instagram.com/_____g_a_u_r_a_v_______/" src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg" width="52" height="40" alt="instagram logo"  /><br>
-  <img href="gauravvv_11296" src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/discord/default.svg" width="52" height="40" alt="discord logo"  /><br>
-  <img href="gauravbhagwati35@gmail.com" src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="52" height="40" alt="gmail logo"  /><br>
+  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" href="https://www.linkedin.com/in/gaurab-bhagawati-71a8ba32a/" width="52" height="40" alt="linkedin logo"  /><br>
+  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/twitter/default.svg" href="https://x.com/GauravBhagwati" width="52" height="40" alt="twitter logo"  /><br>
+  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg" href="https://www.instagram.com/_____g_a_u_r_a_v_______/" width="52" height="40" alt="instagram logo"  /><br>
+  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/discord/default.svg" href="https://www.discord.com/gauravvv_11296" width="52" height="40" alt="discord logo"  /><br>
+  <img  src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" href="gauravbhagwati35@gmail.com" width="52" height="40" alt="gmail logo"  /><br>
 </div>
 
 ###
