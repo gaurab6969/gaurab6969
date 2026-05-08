@@ -2,14 +2,6 @@
   <img height="150" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif"  />
 </div>
 
-## 🌐 Socials:
-<div align="left">
-  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" href="https://www.linkedin.com/in/gaurab-bhagawati-71a8ba32a/" alt="linkedin logo"  /><br>
-  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/twitter/default.svg" width="52" height="40" href="https://x.com/GauravBhagwati" alt="twitter logo"  /><br>
-  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg" width="52" height="40" href="https://www.instagram.com/_____g_a_u_r_a_v_______/" alt="instagram logo"  /><br>
-  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/discord/default.svg" width="52" height="40" href="https://www.discord.com/gauravvv_11296" alt="discord logo"  /><br>
-  <img  src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="52" height="40" href="gauravbhagwati35@gmail.com" alt="gmail logo"  /><br>
-</div>
 
 ###
 
