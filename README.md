@@ -4,11 +4,11 @@
 
 ## 🌐 Socials:
 <div align="left">
-  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" href="https://www.linkedin.com/in/gaurab-bhagawati-71a8ba32a/" width="52" height="40" alt="linkedin logo"  /><br>
-  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/twitter/default.svg" href="https://x.com/GauravBhagwati" width="52" height="40" alt="twitter logo"  /><br>
-  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg" href="https://www.instagram.com/_____g_a_u_r_a_v_______/" width="52" height="40" alt="instagram logo"  /><br>
-  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/discord/default.svg" href="https://www.discord.com/gauravvv_11296" width="52" height="40" alt="discord logo"  /><br>
-  <img  src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" href="gauravbhagwati35@gmail.com" width="52" height="40" alt="gmail logo"  /><br>
+  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" href="https://www.linkedin.com/in/gaurab-bhagawati-71a8ba32a/" alt="linkedin logo"  /><br>
+  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/twitter/default.svg" width="52" height="40" href="https://x.com/GauravBhagwati" alt="twitter logo"  /><br>
+  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg" width="52" height="40" href="https://www.instagram.com/_____g_a_u_r_a_v_______/" alt="instagram logo"  /><br>
+  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/discord/default.svg" width="52" height="40" href="https://www.discord.com/gauravvv_11296" alt="discord logo"  /><br>
+  <img  src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="52" height="40" href="gauravbhagwati35@gmail.com" alt="gmail logo"  /><br>
 </div>
 
 ###
@@ -21,7 +21,7 @@
 
 ###
 
-<p align="left">I'm  Gauravv...<br><br>* I'm currently an I.T. Student <br>* An Aspiring wanna be Engineer | Passionate into CyberSecurity with the touch of AI<br>* Open to Internships</p>
+<p align="left">Hey I'm  Gauravv...<br><br>* I'm currently an I.T. Student <br>* An Aspiring wanna be Engineer | Passionate into CyberSecurity with the touch of AI<br>* Open to Internships</p>
 
 ###
 
